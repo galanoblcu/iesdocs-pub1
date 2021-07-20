@@ -1,5 +1,5 @@
-# Iesdocs
-This is a private, or a hidden repository for doc migration test in IES Docs team. Take it as a playground for fun!!!
+# About this repo
+This is a public repository for doc migration test in IES Docs team. Content in this repo is mostly cloned from https://github.com/galanoblcu/iesdocs, as the Gitkraken limits the operation on Github private repos to users with copyleft license. 
 
 
 ## Folder
