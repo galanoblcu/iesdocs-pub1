@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="references">
+    <title>Test Program and Data Structure</title>
+    <body>
+        <p>By default, test program and configuration files are placed in the test program server,
+            test data and OI log are placed in the test data server, with predefined folder
+            structures as illustrated below, in which blue indicates folders, orange indicates
+            files, and green indicates packaged zip files. The test data is also saved locally in
+                <filepath>C:\testdata\DLOG</filepath> with the same folder structures as the test
+            data server.</p>
+        <note>Some of the paths and folder names can be customized in the
+                <filepath>env_config.txt</filepath> file. To modify the location of the packaged zip
+            files, contact NI engineers.</note>
+        <fig id="fig_l33_2yg_2qb">
+            <title>Test Program Structure</title>
+            <image placement="break" align="left" href="../image/test_program_structure.jpg"
+                id="image_m33_2yg_2qb" scalefit="yes" scale="60"/>
+        </fig>
+        <note>When packaging files or folders, place them at the top level of the package file
+            rather than a folder with the same name as the package file. For example, use
+                    <filepath>.../<varname>Zipfile_Name</varname>.zip/<varname>Mode_Code</varname>_recipe.cfg</filepath>
+            instead of
+                    <filepath>.../<varname>Zipfile_Name</varname>.zip/ZipFileName/<varname>ModeCode</varname>_recipe.cfg</filepath>.</note>
+        <table frame="all" rowsep="1" colsep="1" id="table_sgf_yz3_2qb">
+            <title>Test Program Folders and Files Details</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Folder/File</entry>
+                        <entry>File Type(s) Included</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><filepath>[<varname>Sub_LotNo</varname>]_[<varname>Mode_Code</varname>].mes</filepath></entry>
+                        <entry>Mes file</entry>
+                        <entry>Defines the lot and program information in MES mode.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath><varname>Mode_Code</varname>_recipe.cfg</filepath></entry>
+                        <entry>Recipe file</entry>
+                        <entry>Defines the following information:<ul id="ul_sts_vcp_gqb">
+                                <li>Test data paths, naming patterns, and compression type</li>
+                                <li>Lot information fields that the user enters or the OI pulls from
+                                    other configuration files</li>
+                                <li>Test code conversion configuration</li>
+                                <li>STDF attribute configuration</li>
+                                <li>Bin configuration</li>
+                            </ul></entry>
+                    </row>
+                    <row>
+                        <entry><filepath>BarCodeDefinition.txt</filepath></entry>
+                        <entry>Barcode file</entry>
+                        <entry>Defines the following information in operator mode:<ul
+                                id="ul_j22_2dp_gqb">
+                                <li>Program information</li>
+                                <li>Tester OS version</li>
+                                <li>Mode code</li>
+                            </ul></entry>
+                    </row>
+                    <row>
+                        <entry><filepath><varname>Zipfile_Name</varname>.zip</filepath></entry>
+                        <entry>Zipped test program</entry>
+                        <entry>Zipped test program for the OI to download.
+                                <varname>Zipfile_Name</varname> is the
+                                <varname>Zipfile_Name</varname> value defined in
+                                <filepath>BarCodeDefinition.txt</filepath> or
+                                <filepath>.mes</filepath> file, depending on whether you are running
+                            the OI in operator or MES mode.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>password.txt</filepath></entry>
+                        <entry>Password file</entry>
+                        <entry>Defines the verification password(s) in operator mode and the alarm
+                            password.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <fig id="fig_wjy_vrg_2qb">
+            <title>Test Data Structure</title>
+            <image placement="break" align="left" href="../image/test_data_structure.png"
+                scalefit="yes" scale="90"/>
+        </fig>
+        <table frame="all" rowsep="1" colsep="1" id="table_w2t_2bh_2qb">
+            <title>Test Data Folders and Files Details</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Folder/File</entry>
+                        <entry>File Type(s) Included</entry>
+                        <entry>Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><filepath>UIlog</filepath></entry>
+                        <entry><filepath>.log</filepath></entry>
+                        <entry>Records detailed operation steps, alarm information, and results. The
+                            data is saved in real time.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1"><filepath>csvdir</filepath></entry>
+                        <entry>Conversion summary of test data (<filepath>.csv</filepath>)</entry>
+                        <entry>Converted from the tester summary in <filepath>.csv</filepath>
+                            format, which is generated by clicking <b>Save Test Result</b>. It is
+                            used as the source for generating the summarization summary
+                                (<filepath>.html</filepath>).</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>[<varname>Mode_Code</varname>]_[<varname>Tester_ID</varname>]_config.txt</filepath></entry>
+                        <entry>Records lot information, start and end time, version information, and
+                            conversion summary (<filepath>.csv</filepath>) path. It is generated by
+                            clicking <b>Save Test Result</b>.</entry>
+                    </row>
+                    <row>
+                        <entry morerows="1"><filepath>FullLotFile</filepath></entry>
+                        <entry>Summarization summary of test data
+                            (<filepath>.html</filepath>)</entry>
+                        <entry>Generated by clicking <b>Full Lot End</b> which combines multiple
+                            conversion summary (<filepath>.csv</filepath>) files into one report
+                            according to certain calculation logic and the config information. Use
+                            this report to view test results in the production line.</entry>
+                    </row>
+                    <row>
+                        <entry>Transfer summary (<filepath>.csv</filepath>)</entry>
+                        <entry>Generated by clicking <b>Full Lot End</b> which combines multiple
+                            conversion summary (<filepath>.csv</filepath>) files into one report
+                            according to certain calculation logic and the config information. This
+                            report is overwritten each time you click <b>Full Lot End</b>. Use this
+                            report to transfer in the production line.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>SingleFile</filepath></entry>
+                        <entry><filepath>.std</filepath>, <filepath>.txt</filepath>,
+                                <filepath>.sum</filepath></entry>
+                        <entry>Stores the compressed tester datalog, including tester summary and
+                            STDF files generated by the tester.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

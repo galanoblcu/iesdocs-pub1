@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /E:\IES\GitHub Repo\Pan Deng\iesdocs\OI\temp\pdf\references?><?workdir-uri file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/temp/pdf/references/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="references" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="topic:1;3:24">
+    <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="title:1;4:12">Operator Interface Environment</title>
+    <body class="- topic/body " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="body:1;5:11">
+        <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="p:1;6:12">Use the operator interface to run tests, monitor test status, and save the test results
+            to a local directory or a remote server. The operator interface has two user interfaces:
+            the main panel and the default operator interface.</p>
+        <fig id="fig_l33_2yg_2qb" class="- topic/fig " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="fig:1;9:35">
+            <desc class="- topic/desc " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="desc:1;10:19">Main Panel</desc>
+            <image placement="break" align="center" href="../image/oi_main.PNG" id="image_m33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:1;12:41"/>
+        </fig>
+        <table frame="all" rowsep="1" colsep="1" id="table_n33_2yg_2qb" class="- topic/table " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="table:1;14:73">
+            <desc class="- topic/desc " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="desc:2;15:19">Main Panel Key</desc>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tgroup:1;16:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:1;17:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:2;18:65"/>
+                <tbody class="- topic/tbody " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tbody:1;19:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:1;20:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:1;21:32" colname="col1" dita-ot:x="1" dita-ot:y="1"><image placement="break" align="center" href="../image/callout_1.png" id="image_o33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:2;22:57"/> Start Lot</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:2;23:33" colname="col2" dita-ot:x="2" dita-ot:y="1"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:2;25:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:3;26:32" colname="col1" dita-ot:x="1" dita-ot:y="2"><image placement="break" align="center" href="../image/callout_2.png" id="image_p33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:3;27:57"/> Save Test Result</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:4;28:33" colname="col2" dita-ot:x="2" dita-ot:y="2"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:3;30:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:5;31:32" colname="col1" dita-ot:x="1" dita-ot:y="3"><image placement="break" align="center" href="../image/callout_3.png" id="image_q33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:4;32:57"/> Full Lot End</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:6;33:33" colname="col2" dita-ot:x="2" dita-ot:y="3"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:4;35:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:7;36:32" colname="col1" dita-ot:x="1" dita-ot:y="4"><image placement="break" align="center" href="../image/callout_4.png" id="image_r33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:5;37:57"/> Exit</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:8;38:33" colname="col2" dita-ot:x="2" dita-ot:y="4"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:5;40:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:9;41:32" colname="col1" dita-ot:x="1" dita-ot:y="5"><image placement="break" align="center" href="../image/callout_5.png" id="image_s33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:6;42:57"/> Status Message</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:10;43:33" colname="col2" dita-ot:x="2" dita-ot:y="5"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:6;45:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:11;46:32" colname="col1" dita-ot:x="1" dita-ot:y="6"><image placement="break" align="center" href="../image/callout_6.png" id="image_t33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:7;47:57"/> Lot Information</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:12;48:33" colname="col2" dita-ot:x="2" dita-ot:y="6"/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <fig id="fig_wjy_vrg_2qb" class="- topic/fig " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="fig:2;53:35">
+            <desc class="- topic/desc " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="desc:3;54:19">Default Operator Interface</desc>
+            <image placement="break" align="center" href="../image/oi_default.PNG" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:8;55:85"/>
+        </fig>
+        <table frame="all" rowsep="1" colsep="1" id="table_e1y_2sg_2qb" class="- topic/table " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="table:2;57:73">
+            <desc class="- topic/desc " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="desc:4;58:19">Default Operator Interface Key</desc>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tgroup:2;59:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:3;60:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:4;61:65"/>
+                <tbody class="- topic/tbody " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tbody:2;62:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:7;63:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:13;64:32" colname="col1" dita-ot:x="1" dita-ot:y="1"><image placement="break" align="center" id="image_pmy_kxg_2qb" href="../image/callout_1.png" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:9;65:64"/> Configure Lot</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:14;66:33" colname="col2" dita-ot:x="2" dita-ot:y="1"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:8;68:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:15;69:32" colname="col1" dita-ot:x="1" dita-ot:y="2"><image placement="break" align="center" href="../image/callout_2.png" id="image_pst_pxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:10;70:57"/> Single Test</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:16;71:33" colname="col2" dita-ot:x="2" dita-ot:y="2"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:9;73:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:17;74:32" colname="col1" dita-ot:x="1" dita-ot:y="3"><image placement="break" align="center" href="../image/callout_3.png" id="image_itp_qxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:11;75:57"/> Start Test</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:18;76:33" colname="col2" dita-ot:x="2" dita-ot:y="3"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:10;78:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:19;79:32" colname="col1" dita-ot:x="1" dita-ot:y="4"><image placement="break" align="center" href="../image/callout_4.png" id="image_vfh_rxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:12;80:57"/> Pause/Resume</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:20;81:33" colname="col2" dita-ot:x="2" dita-ot:y="4"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:11;83:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:21;84:32" colname="col1" dita-ot:x="1" dita-ot:y="5"><image placement="break" align="center" href="../image/callout_5.png" id="image_ygt_rxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:13;85:57"/> End Lot</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:22;86:33" colname="col2" dita-ot:x="2" dita-ot:y="5"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:12;88:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:23;89:32" colname="col1" dita-ot:x="1" dita-ot:y="6"><image placement="break" align="center" href="../image/callout_6.png" id="image_btf_sxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:14;90:57"/> Test Status Message</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:24;91:33" colname="col2" dita-ot:x="2" dita-ot:y="6"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:13;93:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:25;94:32" colname="col1" dita-ot:x="1" dita-ot:y="7"><image placement="break" align="center" href="../image/callout_7.png" id="image_ony_sxg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:15;95:57"/> Site Execution Data</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:26;96:33" colname="col2" dita-ot:x="2" dita-ot:y="7"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:14;98:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:27;99:32" colname="col1" dita-ot:x="1" dita-ot:y="8"><image placement="break" align="center" href="../image/callout_8.png" id="image_jzl_txg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:16;100:57"/> Statistics Indicator</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:28;101:33" colname="col2" dita-ot:x="2" dita-ot:y="8"/>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:15;103:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:29;104:32" colname="col1" dita-ot:x="1" dita-ot:y="9"><image placement="break" align="center" href="../image/callout_9.png" id="image_jjy_txg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="image:17;105:57"/> Bin Table</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:30;106:33" colname="col2" dita-ot:x="2" dita-ot:y="9"/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="p:2;111:12">Use the following test status indicators on the operator interface to monitor test
+            program status.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_lrf_zsg_2qb" class="- topic/table " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="table:3;113:73">
+            <desc class="- topic/desc " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="desc:5;114:19">Test Status Indicators</desc>
+            <tgroup cols="2" class="- topic/tgroup " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tgroup:3;115:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:5;116:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="colspec:6;117:65"/>
+                <thead class="- topic/thead " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="thead:1;118:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:16;119:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:31;120:32" colname="col1" dita-ot:x="1" dita-ot:y="1">Indicator</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:32;121:32" colname="col2" dita-ot:x="2" dita-ot:y="1">Description</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="tbody:3;124:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:17;125:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:33;126:32" colname="col1" dita-ot:x="1" dita-ot:y="2">Test Status Message</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:34;127:32" colname="col2" dita-ot:x="2" dita-ot:y="2">Displays the current status of the tester.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:18;129:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:35;130:32" colname="col1" dita-ot:x="1" dita-ot:y="3">Site Execution Data</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:36;131:32" colname="col2" dita-ot:x="2" dita-ot:y="3">Displays statistical and status information for each site.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:19;133:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:37;134:32" colname="col1" dita-ot:x="1" dita-ot:y="4">Settings Table</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:38;135:32" colname="col2" dita-ot:x="2" dita-ot:y="4">Displays the value of relevant station settings and lot settings for
+                            the loaded test program.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:20;138:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:39;139:32" colname="col1" dita-ot:x="1" dita-ot:y="5">Bin Table</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:40;140:32" colname="col2" dita-ot:x="2" dita-ot:y="5">Displays information about the binning of DUTs for the current lot,
+                            such as the names of the soft bins, the associated hard bins, and the
+                            DUT counts for each site.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="row:21;144:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:41;145:32" colname="col1" dita-ot:x="1" dita-ot:y="6">Statistics Indicator</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/oi_environment.dita" xtrc="entry:42;146:32" colname="col2" dita-ot:x="2" dita-ot:y="6">Displays statistical information for a lot execution.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

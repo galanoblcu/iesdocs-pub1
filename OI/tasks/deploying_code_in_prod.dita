@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="procedures">
+    <title>Deploying the Operator Interface in Production</title>
+    <body>
+        <p>Deploy the operator interface (OI) to run in a production environment, including
+            installing the required packages, connecting the OI to the server, configuring the
+            station/lot settings, etc.</p>
+        <section id="section_oqk_1yv_gqb"><title>Installing the OI</title><p><b>Procedure</b></p><ol
+                id="ol_c4y_zyv_gqb">
+                <li>Placeholder.</li>
+            </ol></section>
+        <section id="section_nd1_czv_gqb"><title>Configuring a Handler/Prober
+                    Driver</title><p><b>Procedure</b></p><ol id="ol_xbp_3zv_gqb">
+                <li>In TestStand, select <b>Semiconductor Module>>Configure Station</b>.</li>
+                <li>In the <b>General</b> tab, select <b>Enable Handlder/Prober Driver (Real or
+                        Simulated)</b>.</li>
+                <li>Select an appropriate hander/prober driver from the pull-down menu.<p>The
+                        following table lists the supported handler/driver model(s) of each
+                        handler/prober driver.</p><table frame="all" rowsep="1" colsep="1"
+                        id="table_h55_1cw_gqb">
+                        <tgroup cols="2">
+                            <colspec colname="c1" colnum="1" colwidth="1*"/>
+                            <colspec colname="c2" colnum="2" colwidth="1*"/>
+                            <thead>
+                                <row>
+                                    <entry>Handler/Prober Driver</entry>
+                                    <entry>Supported Handler/Prober Model(s)</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Built-in Simulated Handler Driver</entry>
+                                    <entry>N/A. The NI Built-in Simulated Handler Driver is used for
+                                        simulating handler functions when you do not have access to
+                                        a real handler.</entry>
+                                </row>
+                                <row>
+                                    <entry>Accretech GPIB Prober Driver</entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry>General GPIB Handler Driver</entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry>General TTL Handler Driver</entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry>TEL GPIB Prober Driver</entry>
+                                    <entry/>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table></li>
+                <li>Select <b>Configure Handler/Prober</b>.</li>
+                <li>Specify the settings for the selected handler/prober driver.<p>Click the
+                            <b>Help</b> button at the botton left for more information about each
+                        option.</p></li>
+                <li>Click <b>OK</b>.</li>
+                <li>Click <b>OK</b>.</li>
+            </ol></section>
+        <section id="section_yxs_gyc_hqb"><title>Enabling STDF Log for Processing Test
+                Results</title><p><b>Procedure</b></p><p><b>Note</b> If this configuration is not
+                done, the OI throws an error <b>Datalog does not exist. Call mechanical engineer and
+                    platform test engineer.</b> after you click the <b>Save Test Results</b>
+                button.</p><ol id="ol_vv2_jyc_hqb">
+                <li>In TestStand, select <b>Semiconductor Module>>Configure Station</b>.</li>
+                <li>In the <b>Advanced</b> tab, select <b>Result Processing</b>.</li>
+                <li>If the <b>STDF Log</b> option is not listed in the <b>Output Name</b> column,
+                    click the right arrow on the top right and select <b>STDF Log</b> from the
+                    list.</li>
+                <li>Verify that the <b>STDF Log</b> option is listed in the <b>Output Name</b>
+                    column and place a checkmark in the <b>Enabled</b> column.</li>
+                <li>Click <b>OK </b>.</li>
+                <li>Click <b>OK</b>.</li>
+            </ol></section>
+        <section id="section_ppf_1zv_gqb"><title>Connecting the OI to Server</title><p>You must
+                connect the OI to a test program server and a test data server so that it can
+                download test program from and upload test data to the correct
+                    locations.</p><p><b>Procedure</b></p><ol id="ol_gb5_bzv_gqb">
+                <li>Open <filepath>[<varname>Configuration
+                        Dir</varname>]/db/env_config.txt</filepath>.</li>
+                <li>Update the <codeph>[server_data_IP_1]</codeph> variable values to match the test
+                    data server you are connecting to. For example, change the
+                        <varname>server_data_IP_1</varname> value to the IP address of your server
+                    and confirm the customer ID value is correct.</li>
+                <li>To connect to a second test data server for another customer, complete the
+                    following steps:<ol id="ol_zyl_vfw_gqb">
+                        <li>Update the <varname>server_data_FTP_count</varname> value to 2.<note>If
+                                the <varname>server_data_FTP_count</varname> value is 1, the OI
+                                saves the test data to the first test data server even if you have
+                                configured a second test data server.</note></li>
+                        <li>Update the <codeph>[server_data_IP_2]</codeph> variable values to match
+                            the second test data server you are connecting to. For example, change
+                            the <varname>server_data_IP_2</varname> value to the IP address of your
+                            second server and confirm the customer ID value is correct.</li>
+                    </ol></li>
+                <li>Update the <codeph>[server_pmg_IP]</codeph> variable values to match the test
+                    program server you are connecting to. For example, change the
+                        <varname>server_pmg_IP</varname> value to the IP address of your server and
+                    confirm the customer ID value is correct.</li>
+            </ol></section>
+    </body>
+</topic>

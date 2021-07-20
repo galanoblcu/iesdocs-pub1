@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="references">
+    <title>Configuration Files</title>
+    <body>
+        <p>The operator interface (OI) uses the following configuration files to define the
+            behavior. You can also customize the behavior by changing some of the
+            configurations.</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_wl3_dbj_2qb">
+            <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="newCol4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Configuration File</entry>
+                        <entry>Description</entry>
+                        <entry>Default Directory</entry>
+                        <entry>Can Be Modified?</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><filepath>env_config.txt</filepath></entry>
+                        <entry>Defines the following information: <ul id="ul_yfk_k54_gqb">
+                                <li>IP address of the program server and data server</li>
+                                <li>Server or local test program path</li>
+                                <li>Server or local test data path</li>
+                                <li>Mes file path</li>
+                                <li>Function call definitions</li>
+                                <li>Alarm flag definitions</li>
+                                <li>Other custom definitions</li>
+                            </ul></entry>
+                        <entry><filepath>[<varname>OI program
+                                dir</varname>]/db/env_config.txt</filepath></entry>
+                        <entry>No.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>BarCodeDefinition.txt</filepath></entry>
+                        <entry>Defines the following information in operator mode:<ul
+                                id="ul_gyd_f54_gqb">
+                                <li>Program information</li>
+                                <li>Tester OS version</li>
+                                <li>Mode code</li>
+                            </ul><note>If a test program is shared by multiple mode codes, sepatate
+                                the mode codes using underscores. For example, FT1_QA1 means FT and
+                                QA share a program. To define multiple test programs, put each
+                                program in an independent row.</note></entry>
+                        <entry><filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/BarCodeDefinition.txt</filepath></entry>
+                        <entry>Yes.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>.mes</filepath></entry>
+                        <entry>Defines the lot and program information in MES mode.</entry>
+                        <entry><filepath>[<varname>server_pgm_dir</varname>]/MesFile/[<varname>Sub_LotNo</varname>]/[<varname>Sub_LotNo</varname>]_[<varname>Mode_Code</varname>].mes</filepath>,
+                            where <varname>Sub_LotNo</varname> and <varname>Mode_Code</varname>
+                            represent the corresponding values in the <filepath>.mes</filepath>
+                            file.</entry>
+                        <entry>Yes. Can be modified in MES mode.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>[<varname>Mode_Code</varname>]_recipe.cfg</filepath></entry>
+                        <entry>Defines the following information:<ul id="ul_phx_4j4_gqb">
+                                <li>Test data paths, naming patterns, and compression type</li>
+                                <li>Lot information fields that the user enters or the OI pulls from
+                                    other configuration files</li>
+                                <li>Test code conversion configuration</li>
+                                <li>STDF attribute configuration</li>
+                                <li>Bin configuration</li>
+                            </ul></entry>
+                        <entry>Each mode has a corresponding recipe file.<ul id="ul_qhx_4j4_gqb">
+                                <li><b>(Operator Mode)</b>
+                                    <filepath>[<varname>server_prog_dir</varname>]/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>_recipe.cfg</filepath>,
+                                    where <varname>Customer_ID</varname> is the customer ID you
+                                    enter in the lot information window,
+                                        <varname>Zipfile_Name</varname> and
+                                        <varname>Mode_Code</varname> represent the corresponding
+                                    values in <filepath>BarCodeDefinition.txt</filepath>.</li>
+                                <li><b>(MES Mode)</b>
+                                    <filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>_recipe.cfg</filepath>,
+                                    where <varname>Customer_ID</varname>,
+                                        <varname>Zipfile_Name</varname>, and
+                                        <varname>Mode_Code</varname> represent the corresponding
+                                    values in the <filepath>.mes</filepath> file.</li>
+                            </ul></entry>
+                        <entry>Yes.</entry>
+                    </row>
+                    <row>
+                        <entry><filepath>password.txt</filepath></entry>
+                        <entry>Defines the verification password(s) in operator mode and the alarm
+                            password.</entry>
+                        <entry><filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/password/password.txt</filepath></entry>
+                        <entry>No.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

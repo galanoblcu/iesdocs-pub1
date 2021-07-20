@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /E:\IES\GitHub Repo\Pan Deng\iesdocs\OI\temp\pdf\tasks?><?workdir-uri file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/temp/pdf/tasks/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="procedures" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="topic:1;3:24">
+    <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="title:1;4:12">Deploying Code in Production</title>
+    <body class="- topic/body " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="body:1;5:11">
+        <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="p:1;6:12">Deploy the OI to run in a production environment, including installing the required
+            packages, connecting the OI to the server, cconfiguring the station/lot settings,
+            etc.</p>
+        <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="p:2;9:12"><b class="+ topic/ph hi-d/b " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="b:1;9:15">Procedure</b></p>
+        <ol class="- topic/ol " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="ol:1;10:13">
+            <li class="- topic/li " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="li:1;11:17">Launch ...</li>
+            <li class="- topic/li " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="li:2;12:17">AAA</li>
+            <li class="- topic/li " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="li:3;13:17">BBB</li>
+            <li class="- topic/li " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/tasks/deploying_code_in_prod.dita" xtrc="li:4;14:17">CCC</li>
+        </ol>
+    </body>
+</topic>

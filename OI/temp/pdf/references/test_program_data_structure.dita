@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /E:\IES\GitHub Repo\Pan Deng\iesdocs\OI\temp\pdf\references?><?workdir-uri file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/temp/pdf/references/?><?path2project ..\?><?path2project-uri ../?><?path2rootmap-uri ../?><?doctype-public -//OASIS//DTD DITA Topic//EN?><?doctype-system topic.dtd?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="references" ditaarch:DITAArchVersion="1.3" domains="(topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="topic:1;3:24">
+    <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="title:1;4:12">Test Program and Data Structure</title>
+    <body class="- topic/body " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="body:1;5:11">
+        <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="p:1;6:12">The following figure shows the package structure of the test program, in which orange
+            indicates files, green indicates test program and recipe packages, and the rest
+            indicates folders. Pay special attention to the way the folders are named.</p>
+        <fig id="fig_l33_2yg_2qb" class="- topic/fig " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="fig:1;9:35">
+            <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="title:2;10:20">Test Program Structure</title>
+            <image placement="break" align="center" href="../image/test_program_structure.jpg" id="image_m33_2yg_2qb" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="image:1;12:41"/>
+            <note class="- topic/note " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="note:1;13:19">To modify the package structure, contact NI engineers. Note that some of paths and
+                folder names can be customized in the <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:1;14:58">env_config.txt</i> file.</note>
+            <note class="- topic/note " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="note:2;15:19">When packaging files or folders, place them at the top level of the package file
+                rather than a folder with the same name as the package file. For example,
+                    <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:2;17:24">.../ZipFileName.zip/ ModeCode_recipe.cfg</i>is correct
+                    while<i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:3;18:29">.../ZipFileName.zip/ ZipFileName/ ModeCode_recipe.cfg</i> is
+                wrong.</note>
+            <p class="- topic/p " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="p:2;20:16">The following figure shows the structure of the test data, in which orange indicates
+                files and blue indicates folders. To modify the path of data log, contact NI
+                engineers.</p>
+        </fig>
+        <fig id="fig_wjy_vrg_2qb" class="- topic/fig " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="fig:2;24:35">
+            <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="title:3;25:20">Test Data Structure</title>
+            <image placement="break" align="center" href="../image/test_data_structure.png" class="- topic/image " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="image:2;26:94"/>
+        </fig>
+        <table frame="all" rowsep="1" colsep="1" id="table_w2t_2bh_2qb" class="- topic/table " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="table:1;28:73">
+            <title class="- topic/title " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="title:4;29:20">Test Data Folders and Files Details</title>
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="tgroup:1;30:30">
+                <colspec colname="col1" colnum="1" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="colspec:1;31:65"/>
+                <colspec colname="col2" colnum="2" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="colspec:2;32:65"/>
+                <colspec colname="col3" colnum="3" colwidth="1*" rowheader="headers" class="- topic/colspec " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="colspec:3;33:65"/>
+                <thead class="- topic/thead " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="thead:1;34:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:1;35:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:1;36:32" colname="col1" dita-ot:x="1" dita-ot:y="1">Folder/File</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:2;37:32" colname="col2" dita-ot:x="2" dita-ot:y="1">File Type(s) Included</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:3;38:32" colname="col3" dita-ot:x="3" dita-ot:y="1">Description</entry>
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="tbody:1;41:24">
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:2;42:26">
+                        <entry morerows="1" class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:4;43:45" colname="col1" dita-ot:x="1" dita-ot:y="2"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:4;43:48">csvdir</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:5;44:32" colname="col2" dita-ot:x="2" dita-ot:y="2"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:5;44:35">conversion summary.csv</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:6;45:32" colname="col3" dita-ot:x="3" dita-ot:y="2">Converted from the tester summary in a fixed .<i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:6;45:81">csv</i> format,
+                            which is generated by clicking <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:7;46:63">Save Test Result</i> each time. It is
+                            used for the information acquisition for the summarization
+                                <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:8;48:36">summary.html</i>.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:3;50:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:7;51:32" colname="col2" dita-ot:x="2" dita-ot:y="3"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:9;51:35">config</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:8;52:32" colname="col3" dita-ot:x="3" dita-ot:y="3">Records lot information, start and end time, version information, and
+                                <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:10;53:36">conversion summary.csv</i> path. It is generated by clicking
+                                <b class="+ topic/ph hi-d/b " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="b:1;54:36">Save Test Result</b> each time.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:4;56:26">
+                        <entry morerows="1" class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:9;57:45" colname="col1" dita-ot:x="1" dita-ot:y="4"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:11;57:48">FullLotFile</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:10;58:32" colname="col2" dita-ot:x="2" dita-ot:y="4"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:12;58:35">summarization summary.html</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:11;59:32" colname="col3" dita-ot:x="3" dita-ot:y="4">Comes from <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:13;59:46">conversion summary.csv</i> and config information
+                            according to certain calculation logic, which is generated by clicking
+                                <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:14;61:36">Full Lot End</i> . It is used to combine multiple <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:15;61:89">conversion
+                                summary.csv</i> files into one set as well as to view test results
+                            in the production line.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:5;65:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:12;66:32" colname="col2" dita-ot:x="2" dita-ot:y="5"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:16;66:35">transfer summary.csv</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:13;67:32" colname="col3" dita-ot:x="3" dita-ot:y="5">Comes from <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:17;67:46">conversion summary.csv</i> and config information
+                            according to certain calculation logic, which is generated by clicking
+                                <b class="+ topic/ph hi-d/b " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="b:2;69:36">Full Lot End</b>. It is used to combine multiple <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:18;69:88">conversion
+                                summary.csv file</i>into one set as well as to transfer in the
+                            production line, which is different from <i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:19;71:73">summarization
+                                summary.html</i>.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:6;74:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:14;75:32" colname="col1" dita-ot:x="1" dita-ot:y="6"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:20;75:35">SingleFile</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:15;76:32" colname="col2" dita-ot:x="2" dita-ot:y="6">N/A</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:16;77:32" colname="col3" dita-ot:x="3" dita-ot:y="6">Stores the compressed tester datalog.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:7;79:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:17;80:32" colname="col1" dita-ot:x="1" dita-ot:y="7"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:21;80:35">UIlog</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:18;81:32" colname="col2" dita-ot:x="2" dita-ot:y="7">N/A</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:19;82:32" colname="col3" dita-ot:x="3" dita-ot:y="7">Records detailed operation steps, alarm information, and judgment
+                            results. The data is saved in real time.</entry>
+                    </row>
+                    <row class="- topic/row " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="row:8;85:26">
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:20;86:32" colname="col1" dita-ot:x="1" dita-ot:y="8"><i class="+ topic/ph hi-d/i " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="i:22;86:35">tester datalog</i></entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:21;87:32" colname="col2" dita-ot:x="2" dita-ot:y="8">N/A</entry>
+                        <entry class="- topic/entry " xtrf="file:/E:/IES/GitHub%20Repo/Pan%20Deng/iesdocs/OI/references/test_program_data_structure.dita" xtrc="entry:22;88:32" colname="col3" dita-ot:x="3" dita-ot:y="8">Includes the tester summary and tester stdf, which are generated by
+                            the tester.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>
