@@ -17,7 +17,7 @@ You can create folders as needed. Some folders, for example, *Tpc*, was created 
 - oXygen 23.1 supports Git Staging too.
 
 ## Installation and Configuration
-See https://nio365.sharepoint.com/:p:/r/sites/IESDocumentation/Shared%20Documents/Internal%20Projects/Dita_Repo_for_test_only/demo_/06_18_2021_Git%20it%20done.pptx?d=wa93fb345eb18403db327ff61e39db603&csf=1&web=1&e=LyAUGZ.
+See https://nio365.sharepoint.com/:p:/r/sites/IESDocumentation/Shared%20Documents/Dita%20Migration/_Git%20it%20done.pptx?d=w394f1262f2e245bbae27ca9f7a6361f0&csf=1&web=1&e=zas94p 
 
 Note that since most of the tests were done in Gitlab, so the majority part of the content in the ppt above are mainly for Gitlab users. But the steps in Gitkraken is roughtly the same, just replace Gitlab with Github. Of course, the ppt will be updated soon.
 
