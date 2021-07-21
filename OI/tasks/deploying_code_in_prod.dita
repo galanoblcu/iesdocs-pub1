@@ -19,7 +19,7 @@
                     pull-down menu.<p>If you do not have access to a real handler, select
                             <b>Built-in Simulated Handler Driver</b> to simulate handler functions.
                         For more information about which driver to select, ask NI engineers for
-                        help.</p><p>The following table provides general guidelines about which
+                        help.</p><!--p>The following table provides general guidelines about which
                         handler/prober driver to select for your specific handler/prober.</p><table
                         frame="all" rowsep="1" colsep="1" id="table_h55_1cw_gqb">
                         <tgroup cols="2">
@@ -70,7 +70,7 @@
                                 </row>
                             </tbody>
                         </tgroup>
-                    </table></li>
+                    </table--></li>
                 <li>Select <b>Configure Handler/Prober</b>.</li>
                 <li>Specify the settings for the selected handler/prober driver.<p>Click the
                             <b>Help</b> button at the botton left for more information about each
