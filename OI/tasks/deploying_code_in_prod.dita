@@ -15,41 +15,58 @@
                 <li>In TestStand, select <b>Semiconductor Module>>Configure Station</b>.</li>
                 <li>In the <b>General</b> tab, select <b>Enable Handlder/Prober Driver (Real or
                         Simulated)</b>.</li>
-                <li>Select an appropriate hander/prober driver from the pull-down menu.<p>The
-                        following table lists the supported handler/driver model(s) of each
-                        handler/prober driver.</p><table frame="all" rowsep="1" colsep="1"
-                        id="table_h55_1cw_gqb">
+                <li>Select an appropriate handler/prober driver for your handler or prober from the
+                    pull-down menu.<p>If you do not have access to a real handler, select
+                            <b>Built-in Simulated Handler Driver</b> to simulate handler functions.
+                        For more information about which driver to select, ask NI engineers for
+                        help.</p><p>The following table provides general guidelines about which
+                        handler/prober driver to select for your specific handler/prober.</p><table
+                        frame="all" rowsep="1" colsep="1" id="table_h55_1cw_gqb">
                         <tgroup cols="2">
                             <colspec colname="c1" colnum="1" colwidth="1*"/>
                             <colspec colname="c2" colnum="2" colwidth="1*"/>
                             <thead>
                                 <row>
-                                    <entry>Handler/Prober Driver</entry>
-                                    <entry>Supported Handler/Prober Model(s)</entry>
+                                    <entry>Handler/Prober Type</entry>
+                                    <entry>Handler/Prober Driver to Select</entry>
                                 </row>
                             </thead>
                             <tbody>
                                 <row>
-                                    <entry>Built-in Simulated Handler Driver</entry>
-                                    <entry>N/A. The NI Built-in Simulated Handler Driver is used for
-                                        simulating handler functions when you do not have access to
-                                        a real handler.</entry>
+                                    <entry>No handler/prober available</entry>
+                                    <entry><b>Built-in Simulated Handler Driver</b>—Use this option
+                                        for simulating handler functions when you do not have access
+                                        to a real handler.</entry>
                                 </row>
                                 <row>
-                                    <entry>Accretech GPIB Prober Driver</entry>
-                                    <entry/>
+                                    <entry>Accretech (Tokyo Seimitsu)
+                                            prober<p><b>Examples</b></p><ul id="ul_jh1_qty_hqb">
+                                            <li>Accretech(TSK) UF3000Exe</li>
+                                            <li>Accretech(TSK) FP2000</li>
+                                        </ul></entry>
+                                    <entry><b>Accretech GPIB Prober Driver</b></entry>
                                 </row>
                                 <row>
-                                    <entry>General GPIB Handler Driver</entry>
-                                    <entry/>
+                                    <entry>TEL (Tokyo Electron) Prober<p><b>Examples</b></p><ul
+                                            id="ul_wz2_4ty_hqb">
+                                            <li>TEL PrecioXL</li>
+                                            <li>TEL P8</li>
+                                            <li>TEL P8XL</li>
+                                        </ul></entry>
+                                    <entry><b>TEL GPIB Prober Driver</b></entry>
                                 </row>
                                 <row>
-                                    <entry>General TTL Handler Driver</entry>
-                                    <entry/>
+                                    <entry>Handler with the GPIB interface bus
+                                                driver<p><b>Examples</b></p><ul id="ul_smq_qcz_hqb">
+                                            <li>HT-9045/9046</li>
+                                            <li>Zhongyi GPIB Handler</li>
+                                        </ul></entry>
+                                    <entry><b>General GPIB Handler Driver</b></entry>
                                 </row>
                                 <row>
-                                    <entry>TEL GPIB Prober Driver</entry>
-                                    <entry/>
+                                    <entry>Handler with the TTL interface bus driver (For example,
+                                        Ismeca)</entry>
+                                    <entry><b>General TTL Handler Driver</b></entry>
                                 </row>
                             </tbody>
                         </tgroup>

@@ -25,32 +25,32 @@
                     <row>
                         <entry><image placement="inline" align="left" href="../image/callout_2.png"
                                 id="image_p33_2yg_2qb" scale="60"/>
-                            <b>Save Test Result</b></entry>
+                            <b>Save Intermediate Data</b></entry>
                         <entry>
-                            <p>Saves the intermediate test data to a local directory or a remote
-                                server.</p>
-                            <p>The following are the default directories. To modify the locations to
-                                save the data, contact NI engineers.</p>
+                            <p>Saves the intermediate test data and uploads it to a remote server to
+                                the following directories. To modify the locations, contact NI
+                                engineers.</p>
                             <ul id="ul_shy_x5z_fqb">
                                 <li><filepath>C:\testdata\DLOG\CustomerID\DevName\Customer_LotNo\SubLotNo\csvdir</filepath></li>
                                 <li><filepath>[<varname>server_data</varname>]\CustomerID\DevName\Customer_LotNo\SubLotNo\csvdir</filepath></li>
                             </ul>
+                            <note>You can configure the OI to delete the local copy of intermediate test data after uploading it to server by changing the value of the <varname>JCET_csvDir_Cut_flag</varname> variable to 1 in the corresponding recipe file at <filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>]_recipe.cfg</filepath>.</note>
                         </entry>
                     </row>
                     <row>
                         <entry><image placement="inline" align="left" href="../image/callout_3.png"
                                 id="image_q33_2yg_2qb" scale="60"/>
-                            <b>Full Lot End</b></entry>
+                            <b>Save Summary Report</b></entry>
                         <entry>
-                            <p>Generates summary and transfer reports from the intermediate test
-                                data and saves the reports to a local directory or a remote
-                                server.</p>
-                            <p>The following are the default directories. To modify the locations to
-                                save the reports, contact NI engineers.</p>
+                            <p>Generates and saves summary and transfer reports from the
+                                intermediate test data, and uploads the reports to a remote server
+                                to the following directories. To modify the locations, contact NI
+                                engineers.</p>
                             <ul id="ul_mlz_4vz_fqb">
                                 <li><filepath>C:\testdata\DLOG\CustomerID\DevName\Customer_LotNo\SubLotNo\FullLotFile</filepath></li>
                                 <li><filepath>[<varname>server_data</varname>]\CustomerID\DevName\Customer_LotNo\SubLotNo\FullLotFile</filepath></li>
                             </ul>
+                            <note>You can configure the OI to delete the local copy of summary report after uploading it to server by changing the value of the <varname>JCET_FullLotFileDir_Cut_flag</varname> variable to 1 in the corresponding recipe file at <filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>]_recipe.cfg</filepath>.</note>
                         </entry>
                     </row>
                     <row>
@@ -96,50 +96,44 @@
                     <row>
                         <entry><image placement="inline" align="left" id="image_pmy_kxg_2qb"
                                 href="../image/callout_1.png" scale="60"/>
-                            <b>Configure Lot</b></entry>
-                        <entry>Resets the current lot to its initial state.</entry>
-                    </row>
-                    <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_2.png"
-                                id="image_pst_pxg_2qb" scale="60"/>
                             <b>Single Test</b></entry>
                         <entry>Runs the test program once.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_3.png"
-                                id="image_itp_qxg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_2.png"
+                                id="image_pst_pxg_2qb" scale="60"/>
                             <b>Start Lot</b></entry>
                         <entry>Runs lot testing, which runs the test program continuously until all
                             DUTs in the lot have been tested.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_4.png"
-                                id="image_vfh_rxg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_3.png"
+                                id="image_itp_qxg_2qb" scale="60"/>
                             <b>Pause/Resume</b></entry>
                         <entry>Pauses or resumes test running.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_5.png"
-                                id="image_ygt_rxg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_4.png"
+                                id="image_vfh_rxg_2qb" scale="60"/>
                             <b>End Lot</b></entry>
                         <entry>Stops running the lot.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_6.png"
-                                id="image_btf_sxg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_5.png"
+                                id="image_ygt_rxg_2qb" scale="60"/>
                             <b>Test Status Message</b></entry>
                         <entry>Displays the status of the tester in real time.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_7.png"
-                                id="image_ony_sxg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_6.png"
+                                id="image_btf_sxg_2qb" scale="60"/>
                             <b>Site Execution Data</b></entry>
                         <entry>Displays statistical and status information for each site in real
                             time.</entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_8.png"
-                                id="image_jzl_txg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_7.png"
+                                id="image_ony_sxg_2qb" scale="60"/>
                             <b>Statistics Indicator</b></entry>
                         <entry>Displays statistical information for a lot execution, which can be
                             used for measuring test system performance:<ul id="ul_tqc_jxz_fqb">
@@ -155,8 +149,8 @@
                             </ul></entry>
                     </row>
                     <row>
-                        <entry><image placement="inline" align="left" href="../image/callout_9.png"
-                                id="image_jjy_txg_2qb" scale="60"/>
+                        <entry><image placement="inline" align="left" href="../image/callout_8.png"
+                                id="image_jzl_txg_2qb" scale="60"/>
                             <b>Bin Table</b></entry>
                         <entry>Displays information about the binning of DUTs for the current lot,
                             such as the names of the soft bins, the associated hard bins, and the

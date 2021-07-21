@@ -102,18 +102,28 @@
             <li importance="optional">When the lot testing completes, proceed with the following
                 steps on the main panel.<ul id="ul_jbj_djh_2qb">
                     <li>To view test reports, select <b>View>>Report</b> on the main panel.</li>
-                    <li>To save the intermediate test data and upload it to the server, click
-                            <b>Save Test Result</b>.<note>Select <b>View>>Configuration Window</b>
-                            in the main panel to see where you can find the test data files
-                            locally.</note></li>
+                    <li>To save intermediate test data and upload it to the server, click <b>Save
+                            Intermediate Data</b>.<note>By default, the OI keeps the local copy of
+                            intermediate test data after uploading it to the server. You can
+                            configure the OI to delete the local copy after the upload by changing
+                            the value of the <varname>JCET_csvDir_Cut_flag</varname> variable to 1
+                            in the corresponding recipe file at
+                                    <filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>]_recipe.cfg</filepath>.</note><note>Select
+                                <b>View>>Configuration Window</b> in the main panel to see where you
+                            can find the test data files locally.</note></li>
                     <li>To start the next lot, click <b>Initialize Lot</b> on the main panel and
                         repeat the previous steps of lot testing.<note>You must save the test result
-                            before starting the next lot. If you do not click <b>Save Test
-                                Result</b> on the main panel after the lot completes, the
+                            before starting the next lot. If you do not click <b>Save Intermediate
+                                Data</b> on the main panel after the lot completes, the
                                 <b>Initialize Lot</b> button on the main panel is
                         dimmed.</note></li>
                     <li>To generate summary and transfer reports from the intermediate test data,
-                        click <b>Full Lot End</b>.</li>
+                        click <b>Save Summary Report</b>.<note>By default, the OI keeps the local
+                            copy of summary report after uploading it to the server. You can
+                            configure the OI to delete the local copy after the upload by changing
+                            the value of the <varname>JCET_FullLotFileDir_Cut_flag</varname>
+                            variable to 1 in the corresponding recipe file at
+                                    <filepath>[<varname>server_pgm_dir</varname>]/NI_STS/Product/[<varname>Customer_ID</varname>]/Recipe/[<varname>Zipfile_Name</varname>]/[<varname>Mode_Code</varname>]_recipe.cfg</filepath>.</note></li>
                     <li>To exit the OI completely, click <b>Exit</b>.</li>
                 </ul></li>
         </ol>
