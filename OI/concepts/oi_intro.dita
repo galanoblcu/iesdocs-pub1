@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="references">
-    <title>Introduction</title>
-    <body>
-        <p>Use the operator interface (OI) to run tests, monitor test status, and save the test
-            results to a local directory or a remote server.</p>
-    </body>
-</topic>
